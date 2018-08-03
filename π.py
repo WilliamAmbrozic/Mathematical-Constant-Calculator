@@ -11,4 +11,4 @@ pi, n = 0.0, 0.0
 while (True):
     n+=1
     pi += (1.0/(n*n))
-    print ((pi*6)**(0.5))
+    print((pi*6)**(0.5))
