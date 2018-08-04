@@ -7,7 +7,7 @@ Method:
     [Euler's Approach] [Σ^∞_ₙ₌₁(1/n²) = π²/6] ↧
     [Implimentation] [π = √[6*[Σ^∞_ₙ₌₁(1/n²)]]]
 '''
-pi, n = 0.0, 0.0
+pi, n = 0.0, 0
 while (True):
     n+=1
     pi += (1.0/(n*n))
