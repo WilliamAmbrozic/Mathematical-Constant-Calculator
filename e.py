@@ -10,4 +10,3 @@ def Limit():
     while (True):
         n+=1
         print((1.0 + 1.0/n)**n)
-Limit()
