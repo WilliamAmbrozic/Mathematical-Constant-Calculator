@@ -8,7 +8,7 @@ Method:
     [Euler's Approach] [Σ^∞_ₙ₌₁(1/n²) = π²/6] ↧
     [Implimentation] [π = √[6*[Σ^∞_ₙ₌₁(1/n²)]]]
 '''
-getcontext().prec = 10
+getcontext().prec = 10000
 def Euler():
     pi,n = Decimal(0),0
     while (True):

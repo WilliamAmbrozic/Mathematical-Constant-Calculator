@@ -5,7 +5,6 @@
 Method:
     [e Infinity Limit] [e = (1 + 1/n)ⁿ]
 '''
-def Limit(n):
-    for x in range(1, n):
-        print((1.0 + 1.0/x)**x)
-Limit(10)
+def Limit(i):
+    for n in range(1, i):
+        print((1.0 + 1.0/n)**n)
