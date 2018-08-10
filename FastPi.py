@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #William Ambrozic 2018
+#Make sure you have installed the mpmath package
+#Tested in Python2.7
+
 from  mpmath import mp
-import time
 
 def givePi(n):
     pi = 3.1
