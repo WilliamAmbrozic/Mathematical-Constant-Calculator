@@ -8,7 +8,7 @@ from  mpmath import mp
 
 def givePi(n):
     pi = 3.1
-    tmp = 3.0
+    tmp = 3
     mp.dps = n
     while(tmp != pi):
         pi -= mp.tan(pi)
