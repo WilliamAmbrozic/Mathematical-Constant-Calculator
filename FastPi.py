@@ -6,9 +6,9 @@
 
 from  mpmath import mp
 
-def givePi(n):
-    pi = 3.1
-    tmp = 3
+def givePi(n): #calculatiung pi using newtons method (Newton raphson) on tanx
+    pi = 3.1 #starting value
+    tmp = 3 #tmp used in order to calculate the next iteration
     mp.dps = n
     while(tmp != pi):
         pi -= mp.tan(pi)
