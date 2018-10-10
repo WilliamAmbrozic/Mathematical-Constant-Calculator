@@ -3,6 +3,7 @@
 #William Ambrozic 2018
 #Make sure you have installed the mpmath package
 #Tested in Python2.7
+#Not close to chudnovsky just faster than classical methods like eulers formula for pi^2/6
 
 from  mpmath import mp
 
